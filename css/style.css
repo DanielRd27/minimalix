@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Torna as imagens responsivas */
+img {
+    max-width: 100%s;
+}
+
+html{
+    font-size: 14px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Remove a decoração dos links */
+a{
+    text-decoration: none;
+}
+
+/* Torna as letras maiusculas */
+h1,nav {
+    text-transform: uppercase;
+}
+
+h1 {
+    /* 14 x 1.5 = 26px */
+    font-size: 1,5rem;
+}
+
+/* Fazendo a logo com Css */
+h1 a {
+    color: white; /* cor da letra */
+    background-color: black; /* cor do fundo */
+
+    padding: 0.3rem 1rem; /* espaço entre a letra e a borda fazendo um fundo */
+    border-radius: 5px;
+}
+
+header {
+    background-color: #9a9a9a;
+    position: static;
+    top: 0;
+    z-index: 9999; /* para garantir que apareça em cima de td */
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    width: 95vw; /* 95% da tela */
+}
+
+.menu {
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
