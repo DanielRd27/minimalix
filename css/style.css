@@ -146,7 +146,7 @@ h2 a {
 
 /* Parte com fundo aplicado */
 .destaque {
-    background-image: url(/imagens/fundo-destaque.jpg); /* Imagem de fundo */
+    background-image: url(../imagens/fundo-destaque.jpg); /* Imagem de fundo */
     background-size: cover; /* Cobrir toda a imagem */
     /* background-attachment: fixed; faz com que a imagem de fundo fique "solta" */
     height: 90vh;
@@ -216,7 +216,7 @@ figure {
 /* conteudo section Historia */
 
 .historia-internet {
-    background-image: url(/imagens/fundo-madeira.jpg);
+    background-image: url(../imagens/fundo-madeira.jpg);
     background-size: cover;
 
     text-align: center;
