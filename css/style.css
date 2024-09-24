@@ -283,6 +283,7 @@ footer {
     .menu a {
       /* Adiciona padding horizontal aos links do menu */
       padding: 0 1rem;
+      font-size: 1.5rem;
     }
   
     html {
@@ -366,6 +367,7 @@ caption {
     /* Estilo para o título da tabela */
     font-weight: bold;
     font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
    
    /* Formatando o formulário */
